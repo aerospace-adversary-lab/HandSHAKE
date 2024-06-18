@@ -1,0 +1,16 @@
+participants:
+  - el_type: geth
+    cl_type: lighthouse
+    count: 2
+  - el_type: geth
+    cl_type: teku
+network_params:
+  network_id: "585858"
+additional_services:
+  - dora
+
+
+#how to run
+#kurtosis run github.com/ethpandaops/ethereum-package --args-file ./network_params.yaml --image-download always
+#find the  line for el-1-geth-lighthouse and use that https for the ethereum port setup. 
+#You can choose other ones, but stick to the same one. 
