@@ -12,5 +12,5 @@ additional_services:
 
 #how to run
 #kurtosis run github.com/ethpandaops/ethereum-package --args-file ./network_params.yaml --image-download always
-#find the  line for el-1-geth-lighthouse and use that https for the ethereum port setup. 
-#You can choose other ones, but stick to the same one. 
+#find the  line for dora above el-1-geth-lighthouse and use that https for the ethereum port setup. 
+#You can choose other ones, but stick to the same one. cd
